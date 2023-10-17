@@ -1,0 +1,15 @@
+.separator {
+    border: 0.2rem solid black;
+    width: 80%;
+}
+
+.mini-separator {
+    border: 3px solid $primary;
+    max-width: 3rem;
+    // width: 1rem;
+}
+
+.text-xxlarge {
+    font-size: 4rem;
+    font-weight: bolder;
+}
