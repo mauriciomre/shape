@@ -1,13 +1,13 @@
 // COLORS
 
-$color1: #845ec2;
-$color2: #f3c5ff;
-$color3: #00c9a7;
+$color1: #7a38d5;
+$color2: #17202c;
+$color3: #1de22a;
 $color4: #00d2fc;
 $color5: #c34a36;
 $color6: #009efa;
 $color7: #fefedf;
-$color8: #4b4453;
+$color8: #17202c;
 
 $primary: $color1;
 $secondary: $color2;
@@ -21,7 +21,7 @@ $dark: $color8;
 $theme-colors: (
     "primary": $primary,
     "secondary": $danger,
-    "succes": $success,
+    "success": $success,
     "info": $info,
     "warning": $warning,
     "danger": $danger,

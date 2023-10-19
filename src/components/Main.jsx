@@ -3,9 +3,9 @@ import React from "react";
 const Main = () => {
     return (
         <>
-            <div>
-                <main className="container text-center my-3">
-                    <div className="row row-cols-2 row-gap-4">
+            <div className="text-white position-relative">
+                <main className="container text-center mt-5">
+                    <div className="row row-cols-2 row-gap-6 pt-5">
                         <div className="col-2">
                             <div className="pt-3">
                                 <div className="separator"></div>
@@ -13,14 +13,17 @@ const Main = () => {
                         </div>
                         <div className="col-10">
                             <div className="row">
-                                <div className="col">
-                                    <h1>Ayudamos a tu empresa a alcanzar sus objetivos</h1>
+                                <div className="col text-start">
+                                    <h1 className="fs-0">Ayudamos a tu empresa a alcanzar sus objetivos</h1>
                                 </div>
-                                <div className="col">
-                                    <h4>
-                                        Cuando algo es suficientemente importante, lo haces incluso si las posibilidades
-                                        están en tu contra Elon Musk
-                                    </h4>
+                                <div className="col text-end">
+                                    <div className="p-3">
+                                        <h4>
+                                            Cuando algo es suficientemente importante, lo haces incluso si las
+                                            posibilidades están en tu contra
+                                        </h4>
+                                        <h5>Elon Musk</h5>
+                                    </div>
                                 </div>
                             </div>
                             <div className="col"></div>
@@ -33,7 +36,7 @@ const Main = () => {
                             <div className="row text-start">
                                 <div className="col">
                                     <div>
-                                        <h4>Diseño Web</h4>
+                                        <h2>Diseño Web</h2>
                                         <div className="my-3 mini-separator"></div>
                                         <p>
                                             Diseño de páginas web claras, atractivas y efectivas que te ayudarán a dar
@@ -43,7 +46,7 @@ const Main = () => {
                                     </div>
                                 </div>
                                 <div className="col">
-                                    <h4>Tiendas Online</h4>
+                                    <h2>Tiendas Online</h2>
                                     <div className="my-3 mini-separator"></div>
                                     <p>
                                         Tiendas online con diseño personalizado, que atraen y generan ventas. Tené tu
@@ -52,7 +55,7 @@ const Main = () => {
                                     <button className="btn btn-primary rounded-pill px-4 py-1">MAS INFO</button>
                                 </div>
                                 <div className="col">
-                                    <h4>Escalá en Google</h4>
+                                    <h2>Escalá en Google</h2>
                                     <div className="my-3 mini-separator"></div>
                                     <p>
                                         Escalá posiciones en el principal buscador del mundo. Tenemos todo lo que
@@ -64,9 +67,9 @@ const Main = () => {
                         </div>
                     </div>
 
-                    <div className="row">
+                    <div className="row mt-8">
                         <div className="col text-start">
-                            <h4 className="">#AreYouReady</h4>
+                            <h5 className="text-success">#AreYouReady</h5>
 
                             <h1 className="">
                                 Con creatividad y tecnología ayudamos a tu empresa a crecer en la era digital
@@ -79,19 +82,19 @@ const Main = () => {
                                 perfeccionando nuestros procesos para ser capaces de diseñar y desarrollar webs y
                                 campañas de altísima calidad, en un plazo corto de tiempo y al mejor precio posible.
                             </p>
-                            <button className="btn btn-primary rounded-pill px-4 py-1">MAS INFO</button>
+                            <button className="btn btn-primary rounded-pill px-4 py-1">CONTACTANOS</button>
                         </div>
                         <div className="col"></div>
                     </div>
                 </main>
 
-                <div className="container-fluid bg-light text-center py-3 my-6">
+                <div className="container-fluid text-center mt-6">
                     <h4>LLAMANOS HOY</h4>
                     <h1 className="mb-3">¿Tenés un proyecto?</h1>
                     <button className="btn btn-primary rounded-pill px-4 py-1">CONTACTANOS HOY</button>
                 </div>
 
-                <div className="container-fluid">
+                <div className="container-fluid mt-7">
                     <div className="row">
                         <div className="col-2"></div>
                         <div className="col-6">
@@ -101,8 +104,8 @@ const Main = () => {
                         <div className="col-4">
                             <button className="btn btn-primary rounded-pill px-4 py-1">CHATEA CON UN EXPERTO</button>
                         </div>
-                        <div className="container my-5 text-center">
-                            <h4>DISEÑOS A MEDIDA</h4>
+                        <div className="container my-5 text-center d-flex flex-wrap justify-content-center gap-3">
+                            <h4 className="text-primary">DISEÑOS A MEDIDA</h4>
                             <h1>Si te gustan nuestros diseños, te encantará tu nueva página web</h1>
                             <h5>
                                 Especializados en crear diseños web personalizados y adaptados a las necesidades de cada
@@ -162,7 +165,7 @@ const Main = () => {
                                 a tu medida. Sin gastos de mantenimiento. Pagás solo una vez.
                             </h5>
                         </div>
-                        <div className="container my-5 text-center">
+                        <div className="container my-7 text-center">
                             <h4>LLAMANOS HOY</h4>
                             <h1>Un proceso increíblemente ágil</h1>
                             <h5>
@@ -243,10 +246,10 @@ const Main = () => {
                     </div>
                 </div>
 
-                <div className="container my-5 text-center">
+                <div className="container p-5 text-center">
                     <h5 className="text-primary mb-4">HAGAMOS TU PROYECTO JUNTOS</h5>
                     <h1 className="text-xxlarge mb-4">Contanos en qué podemos ayudarte</h1>
-                    <button className="btn btn-primary rounded-pill px-4 py-1">CHATEÁ CON NOSOTROS</button>
+                    <button className="btn btn-primary rounded-pill px-4">CHATEÁ CON NOSOTROS</button>
                 </div>
             </div>
         </>
