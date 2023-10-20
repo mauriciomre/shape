@@ -34,34 +34,50 @@ const Main = () => {
                         </div>
                         <div className="col-10">
                             <div className="row text-start">
-                                <div className="col">
-                                    <div>
+                                <div className="col services-card p-2 p-md-3 p-xl-5 position-relative">
+                                    <div className="background-card"></div>
+                                    <div className="position-relative services-elements gap-4">
                                         <h2>Diseño Web</h2>
                                         <div className="my-3 mini-separator"></div>
-                                        <p>
+                                        <p className="">
                                             Diseño de páginas web claras, atractivas y efectivas que te ayudarán a dar
                                             la mejor imagen de tu negocio
                                         </p>
-                                        <button className="btn btn-primary rounded-pill px-4 py-1">MAS INFO</button>
+
+                                        <div>
+                                            <button className="btn btn-primary rounded-pill px-4 py-1">MAS INFO</button>
+                                        </div>
                                     </div>
                                 </div>
-                                <div className="col">
-                                    <h2>Tiendas Online</h2>
-                                    <div className="my-3 mini-separator"></div>
-                                    <p>
-                                        Tiendas online con diseño personalizado, que atraen y generan ventas. Tené tu
-                                        nueva sucursal online hoy.
-                                    </p>
-                                    <button className="btn btn-primary rounded-pill px-4 py-1">MAS INFO</button>
+
+                                <div className="col services-card p-3 p-md-3 p-xl-5 position-relative">
+                                    <div className="background-card"></div>
+                                    <div className="position-relative services-elements gap-4">
+                                        <h2>Tiendas Online</h2>
+                                        <div className="my-3 mini-separator"></div>
+                                        <p>
+                                            Tiendas online con diseño personalizado, que atraen y generan ventas. Tené
+                                            tu nueva sucursal online hoy.
+                                        </p>
+                                        <div>
+                                            <button className="btn btn-primary rounded-pill px-4 py-1">MAS INFO</button>
+                                        </div>
+                                    </div>
                                 </div>
-                                <div className="col">
-                                    <h2>Escalá en Google</h2>
-                                    <div className="my-3 mini-separator"></div>
-                                    <p>
-                                        Escalá posiciones en el principal buscador del mundo. Tenemos todo lo que
-                                        necesitás para potenciar tus ventas hoy.
-                                    </p>
-                                    <button className="btn btn-primary rounded-pill px-4 py-1">MAS INFO</button>
+
+                                <div className="col services-card p-3 p-md-3 p-xl-5 position-relative">
+                                    <div className="background-card"></div>
+                                    <div className="position-relative services-elements gap-4">
+                                        <h2>Escalá en Google</h2>
+                                        <div className="my-3 mini-separator"></div>
+                                        <p>
+                                            Escalá posiciones en el principal buscador del mundo. Tenemos todo lo que
+                                            necesitás para potenciar tus ventas hoy.
+                                        </p>
+                                        <div>
+                                            <button className="btn btn-primary rounded-pill px-4 py-1">MAS INFO</button>
+                                        </div>
+                                    </div>
                                 </div>
                             </div>
                         </div>
@@ -94,7 +110,7 @@ const Main = () => {
                     <button className="btn btn-primary rounded-pill px-4 py-1">CONTACTANOS HOY</button>
                 </div>
 
-                <div className="container-fluid mt-7">
+                <div className="container mt-7">
                     <div className="row">
                         <div className="col-2"></div>
                         <div className="col-6">

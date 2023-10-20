@@ -44,3 +44,39 @@ button {
     font-size: 4rem;
     font-weight: bolder;
 }
+
+.background-card {
+    background-image: url(https://ebmwebs.com/wp-content/uploads/2020/11/bg-05-free-img.png);
+    background-position: bottom left;
+    background-repeat: no-repeat;
+    opacity: 0.01;
+    height: 100%;
+    width: 100%;
+    top: 0;
+    left: 0;
+    position: absolute;
+    transition: 0.5s;
+}
+
+.services-card:hover .background-card {
+    opacity: 0.1;
+}
+
+.services-card {
+    border-left: 1px solid rgba(128, 128, 128, 0.3);
+    fill: #eeeaec;
+    background: rgb(81, 78, 76);
+    background: linear-gradient(25deg, rgba(96, 75, 56, 0.862) 0%, rgba(41, 34, 17, 0.624) 100%);
+
+    &:hover {
+        background-color: rgb(238, 78, 72);
+        background: rgb(238, 78, 72);
+    }
+}
+
+.services-elements {
+    display: flex;
+    flex-direction: column;
+    justify-content: space-between;
+    height: 100%;
+}
